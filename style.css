@@ -1,0 +1,91 @@
+
+                h1{
+                    color:darkgoldenrod;
+                    padding-left:30px;
+                }
+                p{
+                    color:brown;
+                    text-align: center;
+                }
+                body{
+                    background-color: rgb(196, 216, 255);
+                }
+
+    
+
+    .menu a{
+      margin-left: 30px;
+     }
+
+    .menu{
+      margin-right: 30px;
+      margin-top: 25px;
+    }
+
+
+   
+ .header{ 
+    display: flex;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    border-radius:50px;
+
+ }
+
+ .site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+ }
+ .grid{
+    background-color: darkkhaki;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border-radius:30px;
+
+
+ }
+
+ img{
+   border-color: bisque;
+ }
+
+ .footer{
+    background-color:antiquewhite;
+    display:flex;
+    justify-content:center;
+    margin: 25px;
+    border-radius:30px;
+
+ }
+
+ a:link{
+   color:aliceblue
+ }
+
+ a:visited{
+   color:red
+ }
+
+.item{
+ position:relative;
+ border:solid;
+ margin:25px;
+}
+
+.item p{
+ position:absolute;
+ top: 50%;
+ left: 50%;
+ transform:translate(-50%, -50%);
+ opacity:0;
+}
+
+.item:hover p {
+ opacity:1
+}
+ 
+.item:hover img{
+   opacity: 0.33
+}
